@@ -4,44 +4,142 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
     <title>Programming Language Picker</title>
   </head>
   <body>
 
-    <!-- Header for website, with experimental timing functions to reveal text as user conti -->
+
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12" id="headerInfo">
 
 
+    <!-- Header for website, with experimental timing functions to reveal text as user conti -->
+      <div id="headerInfo">
+        <div class="row">
+          <div class="col-lg-12" >
+
+
+          </div>
         </div>
-
       </div>
 
 <!-- Layout for buttons to answer questions below -->
 
-    <form id="languageForm">
+      <div id="languageFormStyle>"
+        <form id="languageForm">
 
 
-      <div id="question1">
-        <label class="labelStyle">How would you classify your previous experience?</label><br>
-        <div class="btn-group btn-group-toggle" data-toggle="buttons">
-          <label class="btn btn-secondary active">
-            <input type="radio" name="question1" autocomplete="off" checked> Beginner
-          </label>
-          <label class="btn btn-secondary">
-            <input type="radio" name="question1" autocomplete="off"> Intermediate
-          </label>
-          <label class="btn btn-secondary">
-            <input type="radio" name="question1" autocomplete="off"> Advanced
-          </label>
-        </div>
+          <div id="question1" class="questionStyle">
+            <label class="labelStyle">How would you classify your previous experience?</label><br>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-outline-dark">
+                <input type="radio" name="question1" autocomplete="off" value="1" > Beginner
+              </label>
+              <label class="btn btn-outline-dark">
+                <input type="radio" name="question1" autocomplete="off" value="2"> Intermediate
+              </label>
+              <label class="btn btn-outline-dark">
+                <input type="radio" name="question1" autocomplete="off" value="3"> Advanced
+              </label>
+            </div>
+          </div>
+
+          <div id="question2" class="questionStyle">
+            <label class="labelStyle">Backend, or front end?</label><br>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-outline-dark">
+                <input type="radio" name="question2" autocomplete="off" value="1" > Front End
+              </label>
+              <label class="btn btn-outline-dark">
+                <input type="radio" name="question2" autocomplete="off" value="2"> Back End
+              </label>
+            </div>
+          </div>
+
+          <div id="question3" class="questionStyle">
+            <label class="labelStyle">Web Development, or Software Development?</label><br>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-outline-dark ">
+                <input type="radio" name="question3" autocomplete="off" value="1" > Front End
+              </label>
+              <label class="btn btn-outline-dark">
+                <input type="radio" name="question3" autocomplete="off" value="2"> Back End
+              </label>
+            </div>
+          </div>
+
+          <div id="question4" class="questionStyle">
+            <label class="labelStyle">What's your favorite color?</label><br>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-outline-danger ">
+                <input type="radio" name="question4" autocomplete="off" value="1" > Red
+              </label>
+              <label class="btn btn-outline-secondary">
+                <input type="radio" name="question4" autocomplete="off" value="2"> Gray
+              </label>
+              <label class="btn btn-outline-warning ">
+                <input type="radio" name="question4" autocomplete="off" value="3" > Yellow
+              </label>
+              <label class="btn btn-outline-success">
+                <input type="radio" name="question4" autocomplete="off" value="4"> Green
+              </label>
+              <label class="btn btn-outline-primary ">
+                <input type="radio" name="question4" autocomplete="off" value="5" > Blue
+              </label>
+              <label class="btn btn-outline-info">
+                <input type="radio" name="question4" autocomplete="off" value="6"> Teal
+              </label>
+            </div>
+          </div>
+
+          <div id="question5" class="questionStyle">
+            <label class="labelStyle">Select a SPOKEN language.</label><br>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-outline-dark ">
+                <input type="radio" name="question5" autocomplete="off" value="1" > Japanese
+              </label>
+              <label class="btn btn-outline-dark">
+                <input type="radio" name="question5" autocomplete="off" value="2"> Mandarin
+              </label>
+              </label>
+              <label class="btn btn-outline-dark">
+                <input type="radio" name="question5" autocomplete="off" value="3"> English
+              </label>
+              </label>
+              <label class="btn btn-outline-dark">
+                <input type="radio" name="question5" autocomplete="off" value="4"> French
+              </label>
+              <label class="btn btn-outline-dark">
+                <input type="radio" name="question5" autocomplete="off" value="5"> Spanish
+              </label>
+              <label class="btn btn-outline-dark">
+                <input type="radio" name="question5" autocomplete="off" value="6"> German
+              </label>
+            </div>
+          </div>
+
+          <div id="question6" class="questionStyle">
+            <label class="labelStyle">Do you take the <span style="color:red">red pill</span><br>Or do you take the <span style="color:blue">blue pill</span></label><br>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-outline-danger ">
+                <input type="radio" name="question6" autocomplete="off" value="1" > Red
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="question6" autocomplete="off" value="2"> Blue
+              </label>
+            </div>
+          </div>
+
+
+
+
+
+
+
+        </form>
       </div>
-
-
-    </form>
 
 <!-- end layout -->
 
