@@ -83,6 +83,12 @@ $(document).ready(function() {
         });
 
   $("#languageForm").submit(function(event) {
+    $("#suggestionPython").hide();
+    $("#suggestionJavaScript").hide();
+    $("#suggestionRuby").hide();
+    $("#suggestionRust").hide();
+    $("#suggestionCSharp").hide();
+    $("#suggestionHtml").hide();
 
 
 
