@@ -1,37 +1,34 @@
-# _{Application Name}_
+# _Language Picker_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A quiz that suggests what programming languages to start learning based off of questions provided, June 7th, 2019_
 
-#### By _**{List of contributors}**_
+#### By _**Erik Irgens**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_The application starts on a landing page in which you can begin a quiz after a brief description. The button begins the quiz, and a question is displayed. Each question will have a variety of multiple choice answers, which are cycles through using Next/Back buttons. Once all questions are answered, a submit button is presented. Once the submit button has been pressed, if statement functions take over and correlate all relevant information before using a function to determine which language(s) is(are) appropriate for the user to pursue in future learning. The questions are hypothetical, and are meant as a proof of concept for assigning values to variables in a ranking system. _
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Either clone the repository (from: https://github.com/erik-t-irgens/language-picker) to the desired directory and run_
+* _OR_
+* _Visit the following page to utilize: https://erik-t-irgens.github.io/language-picker _
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There is no way to return to the home page to restart the quiz, yet._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If there are any questions, contact Erik Irgens at erik.t.irgens@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Everything is done through HTML, CSS, and JS. Some interesting technologies utilized would be the implementation of stylized radio forms, which use bootstrap.js for functionality. I implemented sliding and cards and advanced styling for much of the page._
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*Licensing is supported under GPL*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_Erik Irgens_**
