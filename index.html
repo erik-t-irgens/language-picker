@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
@@ -20,7 +21,6 @@
         <div class="row">
           <div class="col-lg-12" >
 
-
           </div>
         </div>
       </div>
@@ -30,114 +30,160 @@
       <div id="languageFormStyle>"
         <form id="languageForm">
 
-
-          <div id="question1" class="questionStyle">
-            <label class="labelStyle">How would you classify your previous experience?</label><br>
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-              <label class="btn btn-outline-dark">
-                <input type="radio" name="question1" autocomplete="off" value="1" > Beginner
-              </label>
-              <label class="btn btn-outline-dark">
-                <input type="radio" name="question1" autocomplete="off" value="2"> Intermediate
-              </label>
-              <label class="btn btn-outline-dark">
-                <input type="radio" name="question1" autocomplete="off" value="3"> Advanced
-              </label>
+          <div id="question1">
+            <div class="questionStyle">
+              <div class="card bg-dark">
+                <label class="labelStyle">How would you classify your previous experience?</label><br>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-outline-secondary">
+                    <input type="radio" name="question1" autocomplete="off" value="1" > Beginner
+                  </label>
+                  <label class="btn btn-outline-secondary">
+                    <input type="radio" name="question1" autocomplete="off" value="2"> Intermediate
+                  </label>
+                  <label class="btn btn-outline-secondary">
+                    <input type="radio" name="question1" autocomplete="off" value="3"> Advanced
+                  </label>
+                </div>
+                <!-- <div class="nextprevbuttonStyle"
+                  <br>
+                  <h2 id="question1next">Next</h2><br>
+                  <button id="question1back" type="button" class="btn btn-outline-secondary btn-sm" >Back</button>
+                </div> -->
+              </div>
             </div>
           </div>
 
-          <div id="question2" class="questionStyle">
-            <label class="labelStyle">Backend, or front end?</label><br>
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-              <label class="btn btn-outline-dark">
-                <input type="radio" name="question2" autocomplete="off" value="1" > Front End
-              </label>
-              <label class="btn btn-outline-dark">
-                <input type="radio" name="question2" autocomplete="off" value="2"> Back End
-              </label>
+          <div id="question2">
+            <div class="questionStyle">
+              <div class="card bg-dark">
+                <label class="labelStyle">Backend, or front end?</label><br>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-outline-secondary">
+                    <input type="radio" name="question2" autocomplete="off" value="1" > Front End
+                  </label>
+                  <label class="btn btn-outline-secondary">
+                    <input type="radio" name="question2" autocomplete="off" value="2"> Back End
+                  </label>
+                </div>
+                <!-- <div class="nextprevbuttonStyle"
+                  <br>
+                  <button id="question2next" type="button" class="btn btn-outline-light btn-sm">Next</button><br>
+                  <button type="button" class="btn btn-outline-secondary btn-sm" id="question2back">Back</button>
+                </div> -->
+              </div>
             </div>
           </div>
+
 
           <div id="question3" class="questionStyle">
-            <label class="labelStyle">Web Development, or Software Development?</label><br>
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-              <label class="btn btn-outline-dark ">
-                <input type="radio" name="question3" autocomplete="off" value="1" > Front End
-              </label>
-              <label class="btn btn-outline-dark">
-                <input type="radio" name="question3" autocomplete="off" value="2"> Back End
-              </label>
+            <div class="card bg-dark">
+              <label class="labelStyle">Web Development, or Software Development?</label><br>
+              <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-outline-secondary ">
+                  <input type="radio" name="question3" autocomplete="off" value="1" > Web
+                </label>
+                <label class="btn btn-outline-secondary">
+                  <input type="radio" name="question3" autocomplete="off" value="2"> Software
+                </label>
+              </div>
+              <!-- <div class="nextprevbuttonStyle"
+                <br>
+                <button type="button" class="btn btn-outline-light btn-sm" id="question3next">Next</button><br>
+                <button type="button" class="btn btn-outline-secondary btn-sm" id="question3back">Back</button>
+              </div> -->
             </div>
           </div>
 
           <div id="question4" class="questionStyle">
-            <label class="labelStyle">What's your favorite color?</label><br>
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-              <label class="btn btn-outline-danger ">
-                <input type="radio" name="question4" autocomplete="off" value="1" > Red
-              </label>
-              <label class="btn btn-outline-secondary">
-                <input type="radio" name="question4" autocomplete="off" value="2"> Gray
-              </label>
-              <label class="btn btn-outline-warning ">
-                <input type="radio" name="question4" autocomplete="off" value="3" > Yellow
-              </label>
-              <label class="btn btn-outline-success">
-                <input type="radio" name="question4" autocomplete="off" value="4"> Green
-              </label>
-              <label class="btn btn-outline-primary ">
-                <input type="radio" name="question4" autocomplete="off" value="5" > Blue
-              </label>
-              <label class="btn btn-outline-info">
-                <input type="radio" name="question4" autocomplete="off" value="6"> Teal
-              </label>
+            <div class="card bg-dark">
+              <label class="labelStyle">What's your favorite color?</label><br>
+              <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-outline-danger ">
+                  <input type="radio" name="question4" autocomplete="off" value="1" > Red
+                </label>
+                <label class="btn btn-outline-secondary">
+                  <input type="radio" name="question4" autocomplete="off" value="2"> Gray
+                </label>
+                <label class="btn btn-outline-warning ">
+                  <input type="radio" name="question4" autocomplete="off" value="3" > Yellow
+                </label>
+                <label class="btn btn-outline-success">
+                  <input type="radio" name="question4" autocomplete="off" value="4"> Green
+                </label>
+                <label class="btn btn-outline-primary ">
+                  <input type="radio" name="question4" autocomplete="off" value="5" > Blue
+                </label>
+                <label class="btn btn-outline-info">
+                  <input type="radio" name="question4" autocomplete="off" value="6"> Teal
+                </label>
+              </div>
+              <!-- <div class="nextprevbuttonStyle"
+                <br>
+                <button type="button" class="btn btn-outline-light btn-sm" id="question4next">Next</button><br>
+                <button type="button" class="btn btn-outline-secondary btn-sm" id="question4back">Back</button>
+              </div> -->
             </div>
           </div>
 
           <div id="question5" class="questionStyle">
-            <label class="labelStyle">Select a SPOKEN language.</label><br>
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-              <label class="btn btn-outline-dark ">
-                <input type="radio" name="question5" autocomplete="off" value="1" > Japanese
-              </label>
-              <label class="btn btn-outline-dark">
-                <input type="radio" name="question5" autocomplete="off" value="2"> Mandarin
-              </label>
-              </label>
-              <label class="btn btn-outline-dark">
-                <input type="radio" name="question5" autocomplete="off" value="3"> English
-              </label>
-              </label>
-              <label class="btn btn-outline-dark">
-                <input type="radio" name="question5" autocomplete="off" value="4"> French
-              </label>
-              <label class="btn btn-outline-dark">
-                <input type="radio" name="question5" autocomplete="off" value="5"> Spanish
-              </label>
-              <label class="btn btn-outline-dark">
-                <input type="radio" name="question5" autocomplete="off" value="6"> German
-              </label>
+            <div class="card bg-dark">
+              <label class="labelStyle">Select a SPOKEN language.</label><br>
+              <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-outline-secondary ">
+                  <input type="radio" name="question5" autocomplete="off" value="1" > Japanese
+                </label>
+                <label class="btn btn-outline-secondary">
+                  <input type="radio" name="question5" autocomplete="off" value="2"> Mandarin
+                </label>
+                </label>
+                <label class="btn btn-outline-secondary">
+                  <input type="radio" name="question5" autocomplete="off" value="3"> English
+                </label>
+                </label>
+                <label class="btn btn-outline-secondary">
+                  <input type="radio" name="question5" autocomplete="off" value="4"> French
+                </label>
+                <label class="btn btn-outline-secondary">
+                  <input type="radio" name="question5" autocomplete="off" value="5"> Spanish
+                </label>
+                <label class="btn btn-outline-secondary">
+                  <input type="radio" name="question5" autocomplete="off" value="6"> German
+                </label>
+              </div>
+              <!-- <div class="nextprevbuttonStyle"
+                <br>
+                <button type="button" class="btn btn-outline-light btn-sm" id="question5next">Next</button><br>
+                <button type="button" class="btn btn-outline-secondary btn-sm" id="question5back">Back</button>
+              </div> -->
             </div>
           </div>
 
           <div id="question6" class="questionStyle">
-            <label class="labelStyle">Do you take the <span style="color:red">red pill</span><br>Or do you take the <span style="color:blue">blue pill</span></label><br>
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-              <label class="btn btn-outline-danger ">
-                <input type="radio" name="question6" autocomplete="off" value="1" > Red
-              </label>
-              <label class="btn btn-outline-primary">
-                <input type="radio" name="question6" autocomplete="off" value="2"> Blue
-              </label>
+            <div class="card bg-dark">
+              <label class="labelStyle">Do you take the <span style="color:red"><strong>red pill</strong></span>?<br>Or do you take the <span style="color:#4286f4"><strong>blue pill</strong></span>?</label><br>
+              <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-outline-danger ">
+                  <input type="radio" name="question6" autocomplete="off" value="1" > Red
+                </label>
+                <label class="btn btn-outline-primary">
+                  <input type="radio" name="question6" autocomplete="off" value="2"> Blue
+                </label>
+              </div>
+              <!-- <div class="nextprevbuttonStyle"
+                <br>
+                <button type="button" class="btn btn-outline-light btn-sm" id="question6next">Next</button><br>
+                <button type="button" class="btn btn-outline-secondary btn-sm" id="question6back">Back</button>
+              </div> -->
             </div>
           </div>
 
-
-
-
-
-
-
+          <div id="submitStyle">
+            <div class="card bg-dark">
+              <h3 id="submitTitle">Are you ready?</h3><br><br>
+              <button type="submit" class="btn btn-success">Submit Answers</button>
+            </div>
+          </div>
         </form>
       </div>
 

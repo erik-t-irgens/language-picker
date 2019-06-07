@@ -1,9 +1,31 @@
 .questionStyle {
   text-align: center;
-  margin-top: auto;
+  margin-top: 10px;
   margin-bottom: auto;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#submitStyle, #submitTitle, .labelStyle {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: auto;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 #languageFormStyle {
-  
+  background-color: black;
+  color: white;
+  tex
+}
+
+.nextprevbuttonStyle {
+  margin-top: 20px;
+}
+
+body {
+  background-color: black;
 }
