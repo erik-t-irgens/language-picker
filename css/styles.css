@@ -36,7 +36,7 @@ body {
 }
 
 #suggestionHtml, #suggestionRuby, #suggestionRust, #suggestionCSharp, #suggestionJavaScript, #suggestionPython {
-  /* display: none; */
+  display: none;
 }
 
 #question1, #question2, #question3, #question4, #question5, #question6, #submitStyle {
@@ -51,4 +51,5 @@ body {
   font-family: 'Titillium Web', sans-serif;
   margin-left: 10px;
   margin-right: 10px;
+  text-shadow: 2px 2px black;
 }
