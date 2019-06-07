@@ -1,4 +1,4 @@
-.questionStyle {
+.questionStyle, #suggestions{
   text-align: center;
   margin-top: 10px;
   margin-bottom: auto;
@@ -34,5 +34,9 @@ body {
 }
 
 #suggestionHtml, #suggestionRuby, #suggestionRust, #suggestionCSharp, #suggestionJavaScript, #suggestionPython {
+  display: none;
+}
+
+#question1, #question2, #question3, #question4, #question5, #question6, #submitStyle {
   display: none;
 }
