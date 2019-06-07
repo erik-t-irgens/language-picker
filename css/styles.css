@@ -1,4 +1,4 @@
-.questionStyle, #suggestions{
+.questionStyle {
   text-align: center;
   margin-top: 10px;
   margin-bottom: auto;
@@ -8,7 +8,9 @@
   margin-right: 10px;
 }
 
-#submitStyle, #submitTitle, .labelStyle {
+
+
+#submitStyle, #submitTitle, #startButtonStyle, #headerInfo, .labelStyle {
   text-align: center;
   margin-top: 50px;
   margin-bottom: auto;
@@ -34,9 +36,19 @@ body {
 }
 
 #suggestionHtml, #suggestionRuby, #suggestionRust, #suggestionCSharp, #suggestionJavaScript, #suggestionPython {
-  display: none;
+  /* display: none; */
 }
 
 #question1, #question2, #question3, #question4, #question5, #question6, #submitStyle {
   display: none;
+}
+
+#suggestions {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: auto;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
 }

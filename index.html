@@ -19,14 +19,19 @@
     <!-- Header for website, with experimental timing functions to reveal text as user conti -->
       <div id="headerInfo">
         <div class="row">
-          <div class="col-lg-12" >
-            <div class="questionStyle">
-              <h1>Language Picker!</h1>
-            </div>
-            <div class="questionStyle">
-              <h3>Take the quiz to find what <em>programming language</em> you should learn!</h3>
+          <div class=" card bg-dark col-lg-12">
+              <div class="questionStyle">
+                <h1 id="headerTitle">Language Picker!</h1>
+              </div>
+              <blockquote class="bg-info">
+              <div class="questionStyle">
+                <h3>Take the quiz to find what <em>programming language</em> you should learn!</h3>
+              </div>
+            </blockquote>
+              <div id="startButtonStyle">
+                <button type="button" class="btn btn-success btn-lg" id="startButton">Start Quiz</button>
+              </div>
           </div>
-          <button type="button" class="btn btn-success" id="startButton">Start Quiz</button>
         </div>
       </div>
 
@@ -187,6 +192,7 @@
             <div class="card bg-dark">
               <h3 id="submitTitle">Are you ready?</h3><br><br>
               <button type="submit" class="btn btn-success">Submit Answers</button>
+              <button type="button" class="btn btn-light" id="goBack">Go Back!</button>
             </div>
           </div>
         </form>
@@ -195,27 +201,63 @@
       <div id="suggestions">
 
         <div id="suggestionPython">
-<p>python test</p>
+          <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Suggestion</div>
+            <div class="card-body">
+              <h5 class="card-title">Python</h5>
+              <p class="card-text">I suggest that you start with python!</p>
+            </div>
+          </div>
         </div>
 
         <div id="suggestionJavaScript">
-<p>JavaSc Test</p>
+          <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Suggestion</div>
+            <div class="card-body">
+              <h5 class="card-title">JavaScript</h5>
+              <p class="card-text">I suggest that you start with JavaScript!</p>
+            </div>
+          </div>
         </div>
 
         <div id="suggestionCSharp">
-<p>C# test</p>
+          <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Suggestion</div>
+            <div class="card-body">
+              <h5 class="card-title">C#</h5>
+              <p class="card-text">I suggest that you start with C#!</p>
+            </div>
+          </div>
         </div>
 
         <div id="suggestionRust">
-<p>Rust test</p>
+          <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Suggestion</div>
+            <div class="card-body">
+              <h5 class="card-title">Rust</h5>
+              <p class="card-text">I suggest that you start with Rust!</p>
+            </div>
+          </div>
         </div>
 
         <div id="suggestionRuby">
-<p>Ruby test</p>
+          <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Suggestion</div>
+            <div class="card-body">
+              <h5 class="card-title">Ruby</h5>
+              <p class="card-text">I suggest that you start with Ruby!</p>
+            </div>
+          </div>
         </div>
 
         <div id="suggestionHtml">
-<p>html test</p>
+          <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Suggestion</div>
+            <div class="card-body">
+              <h5 class="card-title">HTML</h5>
+              <p class="card-text">I suggest that you start with HTML/CSS!</p>
+            </div>
+          </div>
         </div>
       </div>
 

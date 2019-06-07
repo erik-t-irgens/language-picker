@@ -6,6 +6,7 @@ $(document).ready(function() {
 
     // Main page start button
         $("#startButton").click(function(){
+          $("#startButton").slideUp();
           $("#languageForm").toggle();
           $("#question1").slideDown();
         });
@@ -76,6 +77,11 @@ $(document).ready(function() {
           $("#submitStyle").slideDown();
         });
 
+        $("#goBack").click(function(){
+          $("#question6").slideDown();
+          $("#submitStyle").slideUp();
+        });
+
   $("#languageForm").submit(function(event) {
 
 
@@ -90,7 +96,7 @@ $(document).ready(function() {
   var ruby = 0;
   var html = 0;
 
-  
+
   var question1 = parseInt($("input:radio[name=question1]:checked").val());
   var question2 = parseInt($("input:radio[name=question2]:checked").val());
   var question3 = parseInt($("input:radio[name=question3]:checked").val());
