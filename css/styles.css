@@ -29,3 +29,7 @@
 body {
   background-color: black;
 }
+
+#suggestionHtml, #suggestionRuby, #suggestionRust, #suggestionCSharp, #suggestionJavaScript, #suggestionPython {
+  display: none;
+}

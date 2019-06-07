@@ -3,69 +3,97 @@ $(document).ready(function() {
 
 // The following variables will be changed as questions are answered. They all start at 0 for consistency, and will be compared later when we want to find the result.
 
-    var python = 0;
-    var javaScript = 0;
-    var cSharp = 0;
-    var rust = 0;
-    var ruby = 0;
-    var html = 0;
+  var python = 0;
+  var javaScript = 0;
+  var cSharp = 0;
+  var rust = 0;
+  var ruby = 0;
+  var html = 0;
 
+  debugger;
+  var question1 = parseInt($("input:radio[name=question1]:checked").val());
+  var question2 = parseInt($("input:radio[name=question2]:checked").val());
+  var question3 = parseInt($("input:radio[name=question3]:checked").val());
+  var question4 = parseInt($("input:radio[name=question4]:checked").val());
+  var question5 = parseInt($("input:radio[name=question5]:checked").val());
+  var question6 = parseInt($("input:radio[name=question6]:checked").val());
 // Each var below here has an if statement that determines the answer of the question by pulling the value (1, 2, 3 etc depending on amount of answers), then defines what happens when that number is met .In this case, a 1 (for beginner in the question) adds +1 to the above variables for the final verdict.)
-    var question1 = parseInt($("input:radio[name=question1]:checked").val());
-      if (question1 === 1){
 
-        python = python + 1;
-        javaScript = javaScript + 1;
-        cSharp = cSharp + 0;
-        rust = rust + 0;
-        ruby = ruby + 0;
-        html = html + 0;
+  if (question1 === 1){
+    python = python + 1;
+    javaScript = javaScript + 1;
+  } else if (question1 === 2) {
+    cSharp = cSharp + 1;
+    rust = rust + 1;
+  } else if (question1 === 3) {
+    ruby = ruby + 1;
+    html = html + 1;
+  } else {
+  }
 
-      } else if (question1 === 2) {
+  if (question2 === 1){
+    python = python + 1;
+    javaScript = javaScript + 1;
+    cSharp = cSharp + 1;
+  } else if (question2 === 2) {
+    rust = rust + 1;
+    ruby = ruby + 1;
+    html = html + 1;
+  } else {
+  }
 
-        python = python + 0;
-        javaScript = javaScript + 0;
-        cSharp = cSharp + 1;
-        rust = rust + 1;
-        ruby = ruby + 0;
-        html = html + 0;
-
-      } else if (question1 === 3) {
-
-        python = python + 0;
-        javaScript = javaScript + 0;
-        cSharp = cSharp + 0;
-        rust = rust + 0;
-        ruby = ruby + 1;
-        html = html + 1;
-
-      };
-
-
-    var question2 = $("input:radio[name=question2]:checked").val();
-      if (question1 === 1){
-
-        python = python + 1;
-        javaScript = javaScript + 1;
-        cSharp = cSharp + 1;
-        rust = rust + 0;
-        ruby = ruby + 0;
-        html = html + 0;
-
-      } else if (question1 === 2) {
-
-        python = python + 0;
-        javaScript = javaScript + 0;
-        cSharp = cSharp + 0;
-        rust = rust + 1;
-        ruby = ruby + 1;
-        html = html + 1;
-
-      };
+  if (question3 === 1){
+    python = python + 1;
+    javaScript = javaScript + 1;
+    cSharp = cSharp + 1;
+  } else if (question3 === 2) {
+    rust = rust + 1;
+    ruby = ruby + 1;
+    html = html + 1;
+  } else {
+  }
 
 
-console.log(question1);
-console.log(python);
+  if (question4 === 1){
+    python = python + 1;
+  } else if (question4 === 2) {
+    javaScript = javaScript + 1;
+  } else if (question4 === 3) {
+    cSharp = cSharp + 1;
+  } else if (question4 === 4) {
+    rust = rust + 1;
+  } else if (question4 === 5) {
+    ruby = ruby + 1;
+  } else if (question4 === 6) {
+    html = html + 1;
+  } else {
+  }
+
+  if (question5 === 1){
+    python = python + 1;
+  } else if (question5 === 2) {
+    javaScript = javaScript + 1;
+  } else if (question5 === 3) {
+    cSharp = cSharp + 1;
+  } else if (question5 === 4) {
+    rust = rust + 1;
+  } else if (question5 === 5) {
+    ruby = ruby + 1;
+  } else if (question5 === 6) {
+    html = html + 1;
+  } else {
+  }
+
+  if (question6 === 1){
+    python = python + 1;
+    javaScript = javaScript + 1;
+    cSharp = cSharp + 1;
+  } else if (question6 === 2) {
+    rust = rust + 1;
+    ruby = ruby + 1;
+    html = html + 1;
+  } else {
+  }
       // Here are the ways in which I am trying to hide and show the questions via next/back buttons. It doesn't work for now.
 
         // // Main page start button
