@@ -16,10 +16,13 @@
   font-family: 'Titillium Web', sans-serif;
 }
 
+#languageForm {
+  display: none;
+}
+
 #languageFormStyle {
   background-color: black;
   color: white;
-  tex
 }
 
 .nextprevbuttonStyle {
